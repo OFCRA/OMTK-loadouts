@@ -1,0 +1,150 @@
+cdc:
+  classes:
+  - O_officer_F			    # CSAT\Men\Officer
+  description: Chef de Camp
+  rank: COLONEL
+
+cdg:
+  classes:
+  - O_Soldier_SL_F	       	# CSAT\Men\SquadLeader
+  description: Chef de Groupe
+  rank: MAJOR
+
+cde:
+  classes:
+  - O_Soldier_TL_F 	      	# CSAT\Men\Team Leader
+  description: Chef d'Équipe
+  rank: CAPTAIN
+
+medic:
+  classes:
+  - O_medic_F				# CSAT\Men\Combat Life Saver
+  description: infirmier
+
+grenadier:
+  classes:
+  - O_Soldier_GL_F	    	# CSAT\Men\Grenadier
+  description: Grenadier
+
+grenadier_assistant:
+  classes:
+  - O_Soldier_A_F			# CSAT\Men\Ammo Bearer
+  description: Grenadier Assist.
+
+autorifleman:
+  classes:
+  - O_Soldier_AR_F	    	# CSAT\Men\Asst. Autorifleman
+  description: Fusilier-Automatique
+
+autorifleman_assistant:
+  classes:
+  - O_Soldier_AAR_F	    	# CSAT\Men\Assit. Autorifleman
+  description: Fusilier-Auto Assist.
+
+gunner:
+  classes:
+  - O_support_GMG_F		# CSAT\Men (Support)\Gunner (GMG)
+  - O_support_MG_F		    # CSAT\Men (Support)\Gunner (HMG)
+  - O_support_Mort_F 		# CSAT\Men (Support)\Gunner (Mk6)
+  description: Mitrailleur
+
+gunner_assistant:
+  classes:
+  - O_support_AMG_F		# CSAT\Men (Support)\Asst. Gunner (HMG/GMG)
+  - O_support_AMort_F		# CSAT\Men (Support)\Asst. Gunner (Mk6)
+  description: Mitrailleur Assist.
+
+antitank:
+  classes:
+  - O_Soldier_AT_F		# CSAT\Men\Missile Specialist (AT)
+  description: Fusilier Anti-Tank
+
+antitank_assistant:
+  classes:
+  - O_Soldier_AAT_F		# CSAT\Men\Asst. Missile Specialist (AT)
+  description: Fusilier AT Assist.
+
+antitank_light:
+  classes:
+  - O_Soldier_LAT_F		# CSAT\Men\Rifleman (AT)
+  description: Fusilier AT léger
+
+antipersonnel_light:
+  classes:
+  - o_soldier_unarmed_f	# CSAT\Men\Rifleman (Unarmed)
+  description: Fusilier AP léger
+
+marksman:
+  classes:
+  - O_soldier_M_F			# CSAT\Men\Marksman
+  description: Marksman
+
+sniper:
+  classes:
+  - O_sniper_F			# CSAT\Men\Sniper
+  description: Sniper
+
+spotter:
+  classes:
+  - O_spotter_F			# CSAT\Men\Spotter
+  description: Spotter
+
+explosive_specialist:
+  classes:
+  - O_soldier_exp_F		# CSAT\Men\Explosive Specialist
+  description: Spécialiste Explosifs
+
+rifleman:
+  classes:
+  - O_Soldier_F			# CSAT\Men\Rifleman
+  - O_Soldier_lite_F	# CSAT\Men\Rifleman (Light)
+  description: Fusilier
+
+driver:
+  classes:
+  - O_diver_TL_F		# CSAT\Men (Diver)\Diver Team Leader
+  description: Chef de Véhicule
+  rank: MAJOR
+
+ground_crew:
+  classes:
+  - O_crew_F				# CSAT\Men\Crewman
+  description: Membre d'Équipage
+
+pilot:
+  classes:
+  - O_helipilot_F		# CSAT\Men\Helicopter Pilot
+  - O_Pilot_F				# CSAT\Men\Pilot
+  description: Pilote
+  rank: MAJOR
+
+air_crew:
+  classes:
+  - O_helicrew_F			# CSAT\Men\Helicopter Crew
+  description: Membre d'Équipage
+
+op_drone:
+  classes:
+  - O_soldier_UAV_F			# CSAT\Men\UAV Operator
+  description: Opérateur Drone
+
+op_radio:
+  classes:
+  - O_recon_JTAC_F			# CSAT\Men (Recon)\Recon JTAC
+  description: Opérateur Radio
+
+recon:
+  classes:
+  - O_recon_F			# CSAT\Men (Recon)\Recon Scout
+  description: Fusilier Reconnaissance
+
+turret_gun_carrier:
+  classes:
+  - O_recon_LAT_F  # CSAT\Men (Special Forces)\Recon Scout (AT)
+  description: Porteur tourelle (gun)
+
+
+turret_tripod_carrier:
+  classes:
+  - O_Pathfinder_F  # CSAT\Men (Special Forces)\Recon Pathfinder
+  description: Porteur tourelle (trépied)

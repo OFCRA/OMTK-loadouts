@@ -1,0 +1,8 @@
+removeAllWeapons this;
+removeAllItems this;
+removeAllAssignedItems this;
+removeUniform this;
+removeVest this;
+removeBackpackGlobal this;
+removeHeadgear this;
+removeGoggles this;
